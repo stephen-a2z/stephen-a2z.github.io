@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://stephen-a2z.github.io</id>
     <title>Stephen&apos;s Home</title>
-    <updated>2019-07-19T05:42:56.133Z</updated>
+    <updated>2019-07-19T06:46:06.505Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://stephen-a2z.github.io"/>
     <link rel="self" href="https://stephen-a2z.github.io/atom.xml"/>
-    <subtitle>&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=330 height=60 src=&quot;//music.163.com/outchain/player?type=0&amp;id=2144761345&amp;auto=1&amp;height=90&quot;&gt;&lt;/iframe&gt;
+    <subtitle>&lt;div width=300px height=80px&gt;&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=300 height=80 src=&quot;//music.163.com/outchain/player?type=0&amp;id=2144761345&amp;auto=1&amp;height=90&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
 &lt;ul&gt;&lt;li&gt;&lt;a href=&quot;http://www.cnblogs.com/Mr-a2z/&quot;&gt;世界和我爱着你&lt;/a&gt;&lt;/li&gt;&lt;br&gt;&lt;li&gt;友情链接 &lt;a href=&quot;https://peichenchen.com&quot;&gt;🌞&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</subtitle>
     <logo>https://stephen-a2z.github.io/images/avatar.png</logo>
     <icon>https://stephen-a2z.github.io/favicon.ico</icon>
