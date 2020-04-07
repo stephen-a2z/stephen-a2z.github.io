@@ -2,25 +2,151 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0787b53a-fa1f-4256-b93b-28ff30c4bab4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/stephen-a2z.github.io.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archives/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/avatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/images/sidebar-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/post-images/hello-gridea.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/post/about/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/post/hello-gridea/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/post/music/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tag/VyNCz_BMl/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tags/index.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/README_CN.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/_config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/languages/default.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/languages/en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/languages/zh-CN.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/languages/zh-TW.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/404.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/archive.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/category.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/flink.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/additional-js.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/comments/disqus.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/comments/disqusjs.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/comments/gitalk.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/comments/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/comments/laibili.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/comments/utterances.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/comments/valine.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/footer.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/head.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/head/Open_Graph.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/head/analytics.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/head/comment.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/head/config.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/head/config_site.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/head/darkmode.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/head/dns_prefetch.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/head/google_adsense.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/head/noscript.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/head/pwa.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/head/site_verification.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/head/subtitle.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/header/header.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/header/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/header/menu_item.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/header/post-info.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/header/social.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/layout.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/math/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/math/katex.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/math/mathjax.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/math/mermaid.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/mixins/UI.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/mixins/article-sort.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/mobile-sidebar/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/mobile-sidebar/mobile-menus.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/pagination.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/post/post-copyright.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/post/reward.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/recent-posts.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/rightside.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/search/algolia.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/search/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/search/local-search.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/share/add-this.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/share/addtoany.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/share/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/share/share-js.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/sidebar.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/third-party/canvas-nest.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/third-party/canvas-ribbon-piao.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/third-party/canvas-ribbon.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/third-party/pangu.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/widget/card_ad.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/widget/card_announcement.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/widget/card_archives.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/widget/card_author.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/widget/card_categories.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/widget/card_recent_post.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/widget/card_tags.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/widget/card_webinfo.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/includes/widget/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/page-tags.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/page.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/post.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/layout/tag.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/scripts/events/404.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/scripts/events/replace-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/scripts/filters/hide-post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/scripts/filters/post-lazyload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/scripts/filters/random-cover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/scripts/helpers/list-archives.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/scripts/helpers/related-post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/scripts/tags/gallery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/scripts/tags/hide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/scripts/tags/mermaid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/scripts/tags/note.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/css/_global/index.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/css/_highlight/diff.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/css/_highlight/highlight.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/css/_highlight/theme.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/css/_layout/404.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/css/_layout/aside.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/css/_layout/category.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/css/_layout/flink.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/css/_layout/footer.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/css/_layout/gallery.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/css/_layout/head.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/css/_layout/mobile-sidebar.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/css/_layout/note.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/css/_layout/page.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/css/_layout/pagination.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/css/_layout/post.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/css/_layout/relatedposts.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/css/_layout/reward.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/css/_layout/rightside.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/css/_layout/sidebar.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/css/_layout/third-party.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/css/_mode/darkmode.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/css/_mode/readmode.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/css/_search/algolia.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/css/_search/index.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/css/_search/local-search.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/css/_third-party/normalize.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/css/index.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/css/var.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/img/404.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/img/algolia.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/img/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/img/comment_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/img/friend_404.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/img/icp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/img/index.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/img/post.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/img/post_loadding.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/js/search/algolia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/js/search/local-search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/js/third-party/ClickShowText.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/js/third-party/activate-power-mode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/js/third-party/canvas-nest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/js/third-party/canvas-ribbon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/js/third-party/click_heart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/js/third-party/fireworks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/js/third-party/piao.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/js/tw_cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/Butterfly/source/js/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/Butterfly" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,11 +165,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="270">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package-lock.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitmodules">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/Butterfly/README_CN.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-20" />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -91,6 +241,11 @@
               <item name="stephen-a2z.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="stephen-a2z.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="stephen-a2z.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stephen-a2z.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -127,12 +282,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586256190371</updated>
-      <workItem from="1586256197182" duration="6596000" />
+      <workItem from="1586256197182" duration="7719000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6596000" />
+    <option name="totallyTimeSpent" value="7719000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -145,10 +300,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="44" y="39" width="1271" height="787" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21643613" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21643613" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -174,11 +328,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20397" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scaffolds/draft.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -316,8 +465,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitmodules">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/Butterfly/README_CN.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-20" />
+          <second_editor />
         </state>
       </provider>
     </entry>
