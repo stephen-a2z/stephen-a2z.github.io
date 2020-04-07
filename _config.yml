@@ -98,4 +98,8 @@ theme: Butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:stephen-a2z/stephen-a2z.github.io.git # https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
+  branch: [github_pages]
+  message: [blog page update]
+
