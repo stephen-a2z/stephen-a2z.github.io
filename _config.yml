@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 世界和我爱着你
 subtitle: ''
 description: ''
 keywords:
@@ -99,7 +99,7 @@ theme: Butterfly
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:stephen-a2z/stephen-a2z.github.io.git # https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
+  repo: https://github_token@@github.com:stephen-a2z/stephen-a2z.github.io.git 
   branch: [master]
   message: "{{ now('YYYY-MM-DD HH:mm:ss') }}"
 

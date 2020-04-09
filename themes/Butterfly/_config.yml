@@ -52,8 +52,8 @@ copy:
 #   icon: link || the description
 # ---------------
 social:
-  fa fa-github: https://github.com/jerryc127 || Github
-  fa fa-envelope: mailto:xxxxxxx@gmail.com || Email
+  fa fa-github: https://github.com/stephen-a2z || Github
+  fa fa-envelope: mailto:stephen_a2z@foxmail.com || Email
   fa fa-rss: /atom.xml || RSS
 
 ####    search    ####
@@ -108,7 +108,7 @@ mermaid:
 # ---------------
 avatar:
   img: /img/avatar.png
-  effect: false # 頭像會一直轉圈
+  effect: true # 頭像會一直轉圈
 
 # the banner image of index
 index_img:
@@ -292,9 +292,9 @@ footer_copyright:
   enable: true
 
 ICP:
-  enable: false
-  url:
-  text:
+  enable: true
+  url: http://www.beian.miit.gov.cn
+  text: 蜀ICP备19024787号-2
   icon: /img/icp.png
 
 ####   Analysis    ####
@@ -342,7 +342,7 @@ qihu_site_verification:
 
 # 打賞按鈕
 reward:
-  enable: true
+  enable: false
   QR_code:
     - itemlist:
         img: /img/wechat.jpg
@@ -402,7 +402,7 @@ tag_ui: # 留空或index
 background:
 
 # footer是否顯示圖片背景(與top_img一致)
-footer_bg: false
+footer_bg: True
 
 # 背景特效
 # 避免卡頓，建議只開啟一個
@@ -433,7 +433,7 @@ canvas_nest:
 
 # 打字效果
 activate_power_mode:
-  enable: false
+  enable: true
   colorful: true # 冒光特效
   shake: true # 抖動特效
 
@@ -449,10 +449,14 @@ click_heart:
 
 # 點擊出現文字，文字可自行修改
 ClickShowText:
-  enable: false
+  enable: true
   text:
-    - 本人
-    - 超帥
+    - 世界
+    - 和
+    - 我
+    - 爱
+    - 着
+    - 你
   fontSize: 15px
 
 # 網站顯示模式
@@ -462,7 +466,7 @@ display_mode: light
 
 # 美化頁面顯示
 beautify:
-  enable: false
+  enable: true
   title-prefix-icon: '\f0c1'
   title-prefix-icon-color: "#F47466"
 
@@ -498,12 +502,12 @@ subtitle:
   # source: 3  調用一句網（簡體） http://yijuzhan.com/
   # source: 4  調用今日詩詞（簡體） https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的內容
-  source: false
+  source: 2
   # (如果有英文逗號' , '，請使用轉義字符 &#44;)
   # 如果關閉打字效果，subtitle只會顯示sub的第一行文字
   sub:
-    - 今日事&#44;今日畢
-    - Never put off till tomorrow what you can do today
+    - 道法自然
+    - 上善若水
 
 # fontawesome圖標
 # 默認使用的是 fontawesome v4版本的圖標
