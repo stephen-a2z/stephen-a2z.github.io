@@ -13,11 +13,11 @@ cache:
   directories:
     - node_modules
 #在构建之前安装hexo环境
-before_install:
-  - npm uninstall hexo-cli -g
-  - npm install hexo-cli -g
+before_install: true
+
 #安装git插件和搜索功能插件
 install:
+  - echo `pwd`
   - npm install
   - npm install hexo-deployer-git --save
   - npm install hexo-generator-searchdb --save
@@ -27,12 +27,10 @@ before_script:
   - git config user.email "stephen2Lingua@163.com"
   # 替换同目录下的_config.yml文件中github_token字符串为travis后台刚才配置的变量，注>意此处sed命令用了双引号。单引号无效！
   - sed -i '' "s/github_token/${GH_ACCESS_TOKEN}/g" ./_config.yml || exit 1
-  - echo `pwd`
-  - echo `which echo`
   - echo -e `hexo v`
+  - npm install
 # 执行清缓存，生成网页操作
 script:
-  - npm install hexo --save
   - hexo clean
   - hexo generate
   - hexo deploy
