@@ -35,6 +35,8 @@ before_script:
 script:
   - hexo clean
   - hexo generate
+  # generate CNAME
+  - cd public && echo 'liaoyu.online' > CNAME && cd ..
   - hexo deploy
   - hexo clean
 # configure notifications (email, IRC, campfire etc)
