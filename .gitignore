@@ -1,3 +1,6 @@
 .deploy_git/
 .gitm**
 .idea
+public
+node_modules
+
