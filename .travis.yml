@@ -32,7 +32,7 @@ before_script:
   - echo -e `hexo v`
 # 执行清缓存，生成网页操作
 script:
-  - 'npm install hexo --save
+  - npm install hexo --save
   - hexo clean
   - hexo generate
   - hexo deploy
