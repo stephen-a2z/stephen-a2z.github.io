@@ -97,9 +97,18 @@ theme: Butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+#deploy:
+#  provider: pages
+#  skip-cleanup: true
+#  github-token: $GH_TOKEN
+#  keep-history: true
+#  on:
+#    branch: master
+#  local-dir: public
+
 deploy:
   type: git
-  repo: https://github_token@github.com:stephen-a2z/stephen-a2z.github.io.git 
+  repo: https://github_token@github.com/stephen-a2z/stephen-a2z.github.io.git
   branch: [master]
   message: "{{ now('YYYY-MM-DD HH:mm:ss') }}"
 
