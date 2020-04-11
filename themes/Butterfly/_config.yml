@@ -451,7 +451,8 @@ click_heart:
 ClickShowText:
   enable: true
   text:
-    - 世界
+    - 世
+    - 界
     - 和
     - 我
     - 爱
@@ -531,7 +532,7 @@ aside:
 
 # 網站公告
 announcement:
-  content: 感謝訪問本站，若喜歡請收藏 ^_^
+  content: 有朋自远方来，不亦乐乎
 
 # busuanzi count for PV / UV in site
 # 訪問人數
@@ -545,7 +546,7 @@ busuanzi:
 # 也可以寫成 年/月/日 時間
 runtimeshow:
   enable: true
-  start_date: 6/7/2018 00:00:00
+  start_date: 12/12/2019 00:00:00
 
 ####   右下角按鈕  ####
 #----------------------------------------------
@@ -553,7 +554,7 @@ runtimeshow:
 translate:
   enable: true
   # 默認按鈕顯示文字
-  default: 繁
+  default: 簡
   #網站默認語言，1: 繁體中文, 2: 簡體中文
   defaultEncoding: 2
   #延遲時間,若不在前, 要設定延遲翻譯時間, 如100表示100ms,默認為0
