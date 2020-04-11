@@ -244,7 +244,7 @@ gitalk:
   enable: true
   client_id: f26f59165b5cdfcf5573
   client_secret: cd6474287fc867fb15a995d2cec3b9615b14293b
-  repo: https://stephen-a2z.github.io
+  repo: gittalk-comment
   owner: 码聚
   admin: stephen-a2z
   language: zh-CN # en , zh-CN , zh-TW
