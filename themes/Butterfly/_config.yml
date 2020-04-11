@@ -241,15 +241,15 @@ laibili:
   uid:
 
 gitalk:
-  enable: false
-  client_id:
-  client_secret:
-  repo:
+  enable: true
+  client_id: f26f59165b5cdfcf5573
+  client_secret: cd6474287fc867fb15a995d2cec3b9615b14293b
+  repo: https://stephen-a2z.github.io
   owner:
-  admin:
+  admin: stephen-a2z
   language: zh-CN # en , zh-CN , zh-TW
   perPage: 10 # Pagination size, with maximum 100.
-  distractionFreeMode: false # Facebook-like distraction free mode.
+  distractionFreeMode: true # Facebook-like distraction free mode.
   pagerDirection: last # Comment sorting direction, available values are last and first.
   createIssueManually: false # Gitalk will create a corresponding github issue for your every single page automatically
   count: true # top_img顯示評論數
@@ -266,7 +266,7 @@ valine:
   lang: en # i18n: zh-cn/en
   placeholder: Please leave your footprints # valine comment input placeholder(like: Please leave your footprints )
   guest_info: nick,mail,link #valine comment header info
-  recordIP: false # Record reviewer IP
+  recordIP: true # Record reviewer IP
   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
   bg: /img/comment_bg.png # valine background
   count: true # top_img顯示評論數
@@ -284,7 +284,7 @@ utterances:
 
 #####     Footer Settings    ####
 # ------------------------------------
-since: 2020
+since: 2019
 
 footer_custom_text:
 
@@ -402,7 +402,7 @@ tag_ui: # 留空或index
 background:
 
 # footer是否顯示圖片背景(與top_img一致)
-footer_bg: True
+footer_bg: false
 
 # 背景特效
 # 避免卡頓，建議只開啟一個

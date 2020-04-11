@@ -3,13 +3,15 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 世界和我爱着你
-subtitle: ''
-description: ''
-keywords:
+title: 你好,世界!
+subtitle: '世界和我爱着你'
+description: '曲则全， 枉则直， 洼则盈， 敝则新， 少则多， 多则惑'
+keywords: 道
 author: stephen
-language: en
-timezone: ''
+language:
+  - zh-cn
+  - en
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
