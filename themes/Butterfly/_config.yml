@@ -245,7 +245,7 @@ gitalk:
   client_id: f26f59165b5cdfcf5573
   client_secret: cd6474287fc867fb15a995d2cec3b9615b14293b
   repo: gittalk-comment
-  owner: 码聚
+  owner: stephen-a2z
   admin: stephen-a2z
   language: zh-CN # en , zh-CN , zh-TW
   perPage: 10 # Pagination size, with maximum 100.
