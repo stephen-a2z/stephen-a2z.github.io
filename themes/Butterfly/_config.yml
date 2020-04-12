@@ -244,14 +244,16 @@ gitalk:
   enable: true
   client_id: f26f59165b5cdfcf5573
   client_secret: cd6474287fc867fb15a995d2cec3b9615b14293b
-  repo: gittalk-comment
+  repo: stephen-a2z.github.io
   owner: stephen-a2z
-  admin: stephen-a2z
-  language: zh-CN # en , zh-CN , zh-TW
+  admin: Stephen
+  language:
+    - zh-CN
+    - en # en , zh-CN , zh-TW
   perPage: 10 # Pagination size, with maximum 100.
   distractionFreeMode: true # Facebook-like distraction free mode.
   pagerDirection: last # Comment sorting direction, available values are last and first.
-  createIssueManually: false # Gitalk will create a corresponding github issue for your every single page automatically
+  createIssueManually: true # Gitalk will create a corresponding github issue for your every single page automatically
   count: true # top_img顯示評論數
 
 # valine comment system. https://valine.js.org
