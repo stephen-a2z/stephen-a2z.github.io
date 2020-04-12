@@ -5,15 +5,15 @@
 # xxx || icon:
 #   xxx || 連結 || icon
 menu:
-  Home: / || fa fa-home
-  Archives: /archives/ || fa fa-archive
-  Tags: /tags/ || fa fa-tags
-  Categories: /categories/ || fa fa-folder-open
-  Link: /link/ || fa fa-link
-  About: /about/ || fa fa-heart
-  List||fa fa-list:
-    - Music || /music/ || fa fa-music
-    - Movie || /movies/ || fa fa-film
+  主页: / || fa fa-home
+  归档: /archives/ || fa fa-archive
+  标签: /tags/ || fa fa-tags
+  类别: /categories/ || fa fa-folder-open
+  网站链接: /link/ || fa fa-link
+  关于: /about/ || fa fa-heart
+  收藏 || fa fa-list:
+    - 音乐 || /music/ || fa fa-music
+    - 电影 || /movies/ || fa fa-film
 
 # Favicon
 # ---------------
@@ -38,7 +38,7 @@ highlight_copy: true #代碼複製按鈕
 highlight_lang: true #代碼語言顯示
 highlight_shrink: false # true 全部代碼框不展開，需點擊 '>' 打開 / false 代碼框展開，有'>'點擊按鈕 | none 代碼框展開，不顯示 '>' 按鈕
 
-code_word_wrap: false
+code_word_wrap: true
 
 # copy setting
 # 是否禁止複製（如果禁止，highlight_copy的功能將無效)
@@ -107,25 +107,26 @@ mermaid:
 # Post info settings
 # ---------------
 avatar:
-  img: /img/avatar.png
-  effect: true # 頭像會一直轉圈
+  img: /img/cat.jpeg
+  effect: false # 頭像會一直轉圈
 
 # the banner image of index
-index_img:
+index_img: https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2534&q=80
 
 # if the banner of page not setting,it will show the top_img
-default_top_img: /img/index.jpg
+# default_top_img: /img/index.jpg
+default_top_img: https://images.unsplash.com/photo-1488229297570-58520851e868?ixlib=rb-1.2.1&auto=format&fit=crop&w=2549&q=80
 
 # the banner image of archive page
-archive_img:
+archive_img: https://images.unsplash.com/photo-1586576782138-19304c43d0e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2468&q=80
 
 # the banner image of tag page
 # tag page, look like https://xxxxxxxxx.com/tags/butterfly
-tag_img:
+tag_img: https://images.unsplash.com/photo-1548679497-fb80e7553341?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2551&q=80
 
 # the banner image of category page
 # category page, look like https://xxxxxxxxx.com/categories/butterfly
-category_img:
+category_img: https://images.unsplash.com/photo-1568667256549-094345857637?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2516&q=80
 
 # 如果你有使用hexo-douban，可配置這個
 # douban:
@@ -144,7 +145,9 @@ cover:
   position: both
   # 當沒有設置cover時，默認的封面顯示
   default_cover:
-    - /img/post.jpg
+    # - /img/post.jpg
+    - https://images.unsplash.com/reserve/LJIZlzHgQ7WPSh5KVTCB_Typewriter.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=682&q=80
+    - https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80
 
 # if the photo link cannot connect,it will show that
 lodding_bg:
@@ -154,9 +157,9 @@ lodding_bg:
 
 # A simple 404 page
 error_404:
-  enable: false
+  enable: true
   subtitle: "Page Not Found"
-  background:
+  background: https://images.unsplash.com/photo-1584824486509-112e4181ff6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80
 
 post_meta:
   page:
@@ -246,14 +249,14 @@ gitalk:
   client_secret: cd6474287fc867fb15a995d2cec3b9615b14293b
   repo: stephen-a2z.github.io
   owner: stephen-a2z
-  admin: Stephen
+  admin: Stephen-a2z
   language:
     - zh-CN
     - en # en , zh-CN , zh-TW
   perPage: 10 # Pagination size, with maximum 100.
   distractionFreeMode: true # Facebook-like distraction free mode.
   pagerDirection: last # Comment sorting direction, available values are last and first.
-  createIssueManually: true # Gitalk will create a corresponding github issue for your every single page automatically
+  createIssueManually: false # Gitalk will create a corresponding github issue for your every single page automatically
   count: true # top_img顯示評論數
 
 # valine comment system. https://valine.js.org
@@ -453,13 +456,19 @@ click_heart:
 ClickShowText:
   enable: true
   text:
-    - 世
-    - 界
-    - 和
-    - 我
-    - 爱
-    - 着
-    - 你
+    - 人
+    - 法
+    - 地
+    - 地
+    - 法
+    - 天
+    - 天
+    - 法
+    - 道
+    - 道
+    - 法
+    - 自
+    - 然
   fontSize: 15px
 
 # 網站顯示模式
@@ -509,8 +518,7 @@ subtitle:
   # (如果有英文逗號' , '，請使用轉義字符 &#44;)
   # 如果關閉打字效果，subtitle只會顯示sub的第一行文字
   sub:
-    - 道法自然
-    - 上善若水
+    - 世界和我爱着你
 
 # fontawesome圖標
 # 默認使用的是 fontawesome v4版本的圖標
