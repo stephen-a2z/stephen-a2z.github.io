@@ -245,8 +245,8 @@ laibili:
 
 gitalk:
   enable: true
-  client_id: f26f59165b5cdfcf5573
-  client_secret: cd6474287fc867fb15a995d2cec3b9615b14293b
+  client_id: -gittalk_cient_id-
+  client_secret: -gittalk_cient_key-
   repo: stephen-a2z.github.io
   owner: stephen-a2z
   admin: Stephen-a2z

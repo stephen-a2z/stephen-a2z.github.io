@@ -2,49 +2,38 @@ dist: xenial
 language: node_js
 node_js: stable
 env:
- global:
-   - URL_REPO: github.com/stephen-a2z/stephen-a2z.github.io.git
-# 设置钩子只检测blog-source分支的push变动
+  global:
+  - URL_REPO: github.com/stephen-a2z/stephen-a2z.github.io.git
+  - secure: a4CEGQte5o57f88KoV1ePE/LmDJLFPA95QlMUhqCQpPQG88idtjmBhRaLUXKq4WsLDtU6C9+U1FcEkHjU7jswB9blafqMfJmF5GZmliL6YHrQGaReFe0Cb8WDsyz/EGEtZgRMG6+WdSrkT1F2us+YJX2wrClek0cZKVWKit3oHuKsPP9TEytNoxTC1EKvN9wMkvrZgtSjfbPtN5k9dvj6Nas0fN29DLqKp/+f30/yZPGW0DI7DpH7tha/vzdjxPAyMRl4WC4qvcgXhcTlYaJs9eAqBZ/OgVvkMrE0yuI/1GZzzW33ABriuXwF4CVc73pjL+Np/JZ/9y7dqBPyLzuMx3bNyKRlJx9hKviN7L4qWhChys+lGmuEinz9ma+qI/Sp29QsYhEXfHSUbmERfv+RSnTm9nA6LbBQDCA7W3aGhf6IrT7J5BxGObGF/YHGMj4/Tl+8QaLsfgUe66NhnnfdW1XrbsVbOoVp+KCjSU3ic74uelWUaytMn1na882UAEi+/uW7oaw4felULSHYSlJDEIRCfE7l/hg4iPh4qoXH1vIjKnrDfSAnjUlLKJ1Owjdfm8Gbm5Ot3RQR44r/3OnrbjtqOHj0cMB/nkwXjEbHHThXSma9cyi3UD57O76V2iZYpRh5VgjsAIz5EniskjjM3LD6TploGbh/joqO+4B8/s=
+  - secure: Za0zTcyGMxRPbIi1yNgwEX+JlkyuxB/ju41exBWSjA6Lmf1j6dTsWhxo7yLDk6djJiSCOAW/JmVwfZ8qwmjZwz7EaybPtsKdavaYNp/paRdsBCNuFKGSLJvDszWKH6hP9pXiN+gyTdcJCm6pNAEK80KxEJ6bPw8r1y3Vd1eJSfuWYAtMycKynP0LeHyUEMv7m3PmKVmfg9dQRofb6mT5HTRXsxBn0B27ZgxFf+kEmgx0JpCLXtRyN7qZgye019OmxBjj+saVz0tLPVmVC1rGYKRtUdxyxeaFRNcMLR8iXZFgP8nZfZFCPLEM/KwbDMo9Zl47J8WaF3x0xHo/UtPN+88ryvIPeZb+Z5BKARFSM183EBwS/fI3e1XTmW1Ay3kP2USF96HLmXowdcMpgWmb+x0w58uO6S6q76gdrEbIK6HhZmKHl4SOYyx+3/ExC3cSN91RZ6Ga8RGOEvDmUSZl97tnXG/KYuzdIHm6u+/hkcBsNgOYuZjr+img3wukSm1xA51qxa+HKptyUH4TETLFxxhD96pLo6+nYN62Ogz4kQqUnbWFY5GF/uRGOdrnDWYjTlDY+5gEoVsMgXphyxDRzqXZnSAfZt0N7CDpPRlxEsr6toWiyI9yqL3LisH7bVDfkZJJ4Wvs7lgt1JwKWZNwNd642Eg9Se/0m8zfunF4eF4=
 branches:
   only:
-    - github_pages
-# 设置缓存文件
+  - github_pages
 cache:
   directories:
-    - node_modules
-#在构建之前安装hexo环境
+  - node_modules
 before_install: true
-
-#安装git插件和搜索功能插件
 install:
-  - echo `pwd`
-  - npm install
-  - npm install hexo-deployer-git --save
-  - npm install hexo-generator-searchdb --save
-  - echo -e `npm list`
-  # 设置git提交名，邮箱；替换真实token到_config.yml文件
+- echo `pwd`
+- npm install
+- npm install hexo-deployer-git --save
+- npm install hexo-generator-searchdb --save
+- echo -e `npm list`
 before_script:
-  - git config user.name "stephen-a2z"
-  - git config user.email "stephen2Lingua@163.com"
-  # 替换同目录下的_config.yml文件中github_token字符串为travis后台刚才配置的变量，注>意此处sed命令用了双引号。单引号无效！
-  # - sed -i '' "s/github_token/${GH_ACCESS_TOKEN}/g" ./_config.yml || exit 1 # osx
-  - sed -i "s/github_token/${GH_ACCESS_TOKEN}/g" ./_config.yml || exit 1
-  - echo -e `hexo v`
-
-# 执行清缓存，生成网页操作
+- git config user.name "stephen-a2z"
+- git config user.email "stephen2Lingua@163.com"
+- sed -i "s/github_token/${GH_ACCESS_TOKEN}/g" ./_config.yml || exit 1
+- sed -i "s/-gittalk_cient_id-/${GITTALK_CLIENT_ID}/g" ./themes/Butterfly/_config.yml || exit 1
+- sed -i "s/-gittalk_cient_key-/${GITTALK_CLIENT_KEY}/g" ./themes/Butterfly/_config.yml || exit 1
+- echo -e `hexo v`
 script:
-  - hexo clean
-  - hexo generate
-  # generate CNAME
-  - cd public && echo 'liaoyu.online' > CNAME && cd ..
-  - hexo deploy
-  - hexo clean
-# configure notifications (email, IRC, campfire etc)
-# please update this section to your needs!
-# https://docs.travis-ci.com/user/notifications/
+- hexo clean
+- hexo generate
+- cd public && echo 'liaoyu.online' > CNAME && cd ..
+- hexo deploy
+- hexo clean
 notifications:
   email:
-    - stephen_a2z@foxmail.com
+  - stephen_a2z@foxmail.com
   on_success: change
   on_failure: always
-# install: ./install-dependencies.sh
