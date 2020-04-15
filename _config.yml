@@ -113,4 +113,23 @@ deploy:
   repo: https://github_token@github.com/stephen-a2z/stephen-a2z.github.io.git
   branch: [master]
   message: "{{ now('YYYY-MM-DD HH:mm:ss') }}"
+# music
+# https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md
+aplayer:
+  meting: true
+# movie douban
+# https://github.com/mythsman/hexo-douban
+douban:
+  user: 213312680
+  builtin: true
+#  book:
+#    title: 'This is my book title'
+#    quote: 'This is my book quote'
+  movie:
+    title: '一部电影一段人生'
+    quote: '一个人看看电影，继续面对生活'
+#  game:
+#    title: 'This is my game title'
+#    quote: 'This is my game quote'
+  timeout: 10000
 

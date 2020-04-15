@@ -1,0 +1,32 @@
+class:
+  class_name: 友情鏈接
+  link_list:
+    1:
+      name: 大鹏
+      link: https://whark.cn/
+      avatar: https://whark.oss-cn-hangzhou.aliyuncs.com/blog/image/avatar.jpg
+      descr: whark's blog
+
+class2:
+  class_name: 好网站推荐
+  link_list:
+    1:
+      name: yeelogo在线logo设计
+      link: http://yeelogo.com/#/
+      avatar: http://oss.ymark.cc/yeelogo/yeelogo-128-128.png
+      descr: 方便快捷的logo在线设计网站
+    2:
+      name: SSL Server Test
+      link: https://www.ssllabs.com/ssltest/analyze.html
+      avatar: https://ssllabs.com/images/qualys-ssl-labs-logo.png
+      descr: This free online service performs a deep analysis of the configuration of any SSL web server on the public Internet
+    3:
+      name: Unsplash
+      link: https://unsplash.com/
+      avatar: https://unsplash.com/favicon-32x32.png
+      descr: free and beautiful images & picture
+    4:
+      name: public Api
+      link: https://public-apis.xyz/
+      avatar: https://public-apis.xyz/images/public-apis.png
+      descr: 成百上千的公共api，总有一款适合你
