@@ -1,6 +1,8 @@
 dist: xenial
 language: node_js
-node_js: stable
+node_js:
+  - 12.5.0
+
 env:
   global:
   - URL_REPO: github.com/stephen-a2z/stephen-a2z.github.io.git
