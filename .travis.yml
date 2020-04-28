@@ -8,14 +8,13 @@ env:
   - secure: Za0zTcyGMxRPbIi1yNgwEX+JlkyuxB/ju41exBWSjA6Lmf1j6dTsWhxo7yLDk6djJiSCOAW/JmVwfZ8qwmjZwz7EaybPtsKdavaYNp/paRdsBCNuFKGSLJvDszWKH6hP9pXiN+gyTdcJCm6pNAEK80KxEJ6bPw8r1y3Vd1eJSfuWYAtMycKynP0LeHyUEMv7m3PmKVmfg9dQRofb6mT5HTRXsxBn0B27ZgxFf+kEmgx0JpCLXtRyN7qZgye019OmxBjj+saVz0tLPVmVC1rGYKRtUdxyxeaFRNcMLR8iXZFgP8nZfZFCPLEM/KwbDMo9Zl47J8WaF3x0xHo/UtPN+88ryvIPeZb+Z5BKARFSM183EBwS/fI3e1XTmW1Ay3kP2USF96HLmXowdcMpgWmb+x0w58uO6S6q76gdrEbIK6HhZmKHl4SOYyx+3/ExC3cSN91RZ6Ga8RGOEvDmUSZl97tnXG/KYuzdIHm6u+/hkcBsNgOYuZjr+img3wukSm1xA51qxa+HKptyUH4TETLFxxhD96pLo6+nYN62Ogz4kQqUnbWFY5GF/uRGOdrnDWYjTlDY+5gEoVsMgXphyxDRzqXZnSAfZt0N7CDpPRlxEsr6toWiyI9yqL3LisH7bVDfkZJJ4Wvs7lgt1JwKWZNwNd642Eg9Se/0m8zfunF4eF4=
 branches:
   only:
-  - github_pages
-cache:
-  directories:
-  - node_modules
+    - github_pages
+cache: npm
 before_install: true
 install:
 - echo `pwd`
 - npm install
+- npm install -g hexo-cli
 - npm install hexo-deployer-git --save
 - npm install hexo-generator-searchdb --save
 - echo -e `npm list`
