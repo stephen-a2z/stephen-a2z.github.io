@@ -469,7 +469,7 @@ ClickShowText:
     - 法
     - 自
     - 然
-  fontSize: 15px
+  fontSize: 30px
 
 # 網站顯示模式
 # light 默認模式
@@ -564,17 +564,17 @@ runtimeshow:
 translate:
   enable: true
   # 默認按鈕顯示文字
-  default: 簡
+  default: 简
   #網站默認語言，1: 繁體中文, 2: 簡體中文
   defaultEncoding: 2
   #延遲時間,若不在前, 要設定延遲翻譯時間, 如100表示100ms,默認為0
   translateDelay: 0
   #博客網址
-  cookieDomain: "https://xxx/"
+  cookieDomain: "https://liaoyu.online"
   #當文字是簡體時，按鈕顯示的文字
   msgToTraditionalChinese: "繁"
   #當文字是繁體時，按鈕顯示的文字
-  msgToSimplifiedChinese: "簡"
+  msgToSimplifiedChinese: "简"
 
 #閲讀模式
 readmode:

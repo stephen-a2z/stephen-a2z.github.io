@@ -3,11 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 你好,世界!
-subtitle:
-description: '曲则全， 枉则直， 洼则盈， 敝则新， 少则多， 多则惑'
+title: 码上相逢无纸笔
+subtitle: 码聚的个人小站
+description:
+  - 学而不思则罔
+  - 死而不学则殆
 keywords:
-author: stephen
+  - 学习
+  - 领悟
+  - 人生
+author: 码聚
 language:
   - zh-cn
   - en
