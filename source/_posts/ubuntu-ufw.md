@@ -4,6 +4,10 @@ date: 2020-05-29 14:37:43
 tags:
   - ubuntu
   - 防火墙
+categories:
+  - linux
+cover: https://images.unsplash.com/photo-1524741978410-350ba91a70d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1259&q=80
+description: ubuntu中管理防火墙的常用命令
 ---
 
 查看防火墙版本
