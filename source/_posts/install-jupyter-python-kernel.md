@@ -7,7 +7,7 @@ tags:
   - ipython
   - kernel
   - conda
-categories
+categories:
   - jupyter
 ---
 # 安装好jupyterhub后， 该如何安装我们需要的 ipython kernel 呢
