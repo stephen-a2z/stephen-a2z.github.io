@@ -10,7 +10,7 @@ menu:
   标签: /tags/ || fa fa-tags
   类别: /categories/ || fa fa-folder-open
   网站链接: /link/ || fa fa-link
-  关于: /about/ || fa fa-heart
+  关于我: /about/ || fa fa-heart
   收藏 || fa fa-list:
     - 音乐 || /music/ || fa fa-music
     - 电影 || /movies/ || fa fa-film
