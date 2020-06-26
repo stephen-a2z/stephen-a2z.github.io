@@ -107,7 +107,7 @@ mermaid:
 # Post info settings
 # ---------------
 avatar:
-  img: /img/cat.jpeg
+  img: /img/myphoto.png
   effect: false # 頭像會一直轉圈
 
 # the banner image of index
