@@ -5,7 +5,7 @@ type: about
 top_img: https://images.unsplash.com/photo-1545670723-196ed0954986?ixlib=rb-1.2.1&auto=format&fit=crop&w=2746&q=80
 
 ---
-## 作者
+## 我
 码聚， 
 软件工程师。    
 目前就职于上海一家外企， 负责商家数据对接业务。 
