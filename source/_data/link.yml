@@ -30,3 +30,8 @@ class2:
       link: https://public-apis.xyz/
       avatar: https://public-apis.xyz/images/public-apis.png
       descr: 成百上千的公共api，总有一款适合你
+    5:
+      name: FotoJet
+      link: https://www.fotojet.com/cn/
+      avatar:
+      descr: 在线设计封面等
